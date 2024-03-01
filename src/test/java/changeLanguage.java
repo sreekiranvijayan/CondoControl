@@ -23,8 +23,8 @@ public class changeLanguage {
         driver.manage().window().maximize();
 
         // Perform login
-        driver.findElement(By.id("Username")).sendKeys("test@user1.com");
-        driver.findElement(By.id("Password")).sendKeys("123456");
+        driver.findElement(By.id("Username")).sendKeys("xxxx@user1.com");
+        driver.findElement(By.id("Password")).sendKeys("xxxxx");
         driver.findElement(By.id("loginBtn")).click();
 
         // Adding wait time to make sure all items are loaded
